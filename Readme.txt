@@ -12,7 +12,7 @@ Website Management and Vehicle Tracking with WordPress
 -HTML
 -CSS
 
-(Define Resolution 1366x768 for Demo)
+(Define Resolution 1366x768 with Google Chrome for Demo)
 http://siamcomdeveloper.tk/wordpress
 username : user1
 password : 123456
