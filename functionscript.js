@@ -2090,7 +2090,7 @@ function deleteDriverDB(id) {
     var pass = prompt("Please enter your password confirm to delete this:", "");
     if (pass != "" && pass != null) {
         $.ajax({
-            url: 'http://siamcomdeveloper.tk/wordpress/wp-content/themes/collect/js/functions.php',
+            url: 'http://siamcomdeveloper.tk/wordpress/wp-content/themes/collect/js/PHPfunctions.php',
             type: 'post',
             data: { "pass": pass },
             success: function (response) {
@@ -2398,7 +2398,7 @@ function deleteVehicleDB(id) {
     var pass = prompt("Please enter your password confirm to delete this:", "");
     if (pass != "" && pass != null) {
         $.ajax({
-            url: 'http://siamcomdeveloper.tk/wordpress/wp-content/themes/collect/js/functions.php',
+            url: 'http://siamcomdeveloper.tk/wordpress/wp-content/themes/collect/js/PHPfunctions.php',
             type: 'post',
             data: { "pass": pass },
             success: function (response) {
@@ -3554,7 +3554,7 @@ function checkLanguage() {
 
 function checkPass() {
     $.ajax({
-        url: 'http://siamcomdeveloper.tk/wordpress/wp-content/themes/collect/js/functions.php',
+        url: 'http://siamcomdeveloper.tk/wordpress/wp-content/themes/collect/js/PHPfunctions.php',
         type: 'post',
         data: { "pass": 'test' },
         success: function (response) {

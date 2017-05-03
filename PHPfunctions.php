@@ -4,7 +4,6 @@ require_once( $_SERVER['DOCUMENT_ROOT'] . '/wordpress/wp-includes/pluggable.php'
 
 function checkpass($pass){
 	//echo $pass;
-	//echo $_SERVER['DOCUMENT_ROOT'];
 	global $current_user;
     get_currentuserinfo();
 
