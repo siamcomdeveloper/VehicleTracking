@@ -11,6 +11,7 @@ Website Management and Vehicle Tracking with WordPress
 -JSON
 -HTML
 -CSS
+-AWS Ubuntu Linux Server
 
 (Define Resolution 1366x768 with Google Chrome for Demo)
 http://siamcomdeveloper.tk/wordpress
